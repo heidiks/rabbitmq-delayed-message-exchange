@@ -1,4 +1,4 @@
-FROM rabbitmq:latest
+FROM rabbitmq:3.7.7-management
 
 RUN apt-get update
 
