@@ -1,4 +1,4 @@
-FROM rabbitmq:3.7.7-management
+FROM rabbitmq:3.7-management
 
 RUN apt-get update
 
@@ -12,4 +12,4 @@ RUN unzip $RABBITMQ_HOME/plugins/rabbitmq_delayed_message_exchange-20171201-3.7.
 
 RUN rabbitmq-plugins enable --offline rabbitmq_delayed_message_exchange
 
-RUN rabbitmq-plugins enable --offline rabbitmq_consistent_hash_exdockchange
+RUN rabbitmq-plugins enable --offline rabbitmq_consistent_hash_exchange
