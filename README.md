@@ -1,4 +1,4 @@
-RabbitMQ with the compatible version of the delayed message exchange plugin
+RabbitMQ with management and compatible version of the delayed message exchange plugin
 
 ## Versions
 - [latest](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/latest/Dockerfile)
