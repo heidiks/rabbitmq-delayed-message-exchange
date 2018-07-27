@@ -12,7 +12,9 @@ RabbitMQ with management and compatible version of the delayed message exchange 
     docker run heidiks/rabbitmq-delayed-message-exchange:latest
 
 ## Environment
-- RABBITMQ_DEFAULT_USER=admin  
-- RABBITMQ_DEFAULT_PASS=password
+The environment variables are the same as the [official image](https://hub.docker.com/_/rabbitmq/)
+- Sample
+    - RABBITMQ_DEFAULT_USER=admin
+    - RABBITMQ_DEFAULT_PASS=password
 
 
