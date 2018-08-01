@@ -8,11 +8,12 @@ RabbitMQ with management and compatible version of the delayed message exchange 
 - [3.6-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.6-management/Dockerfile)
 
 ## Running
+#### Image
 
     docker run heidiks/rabbitmq-delayed-message-exchange:latest
-    
-    
-Docker compose sample:
+
+
+#### Docker compose sample:
 ```YAML
 version: '3.3'
 
