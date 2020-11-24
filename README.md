@@ -7,7 +7,7 @@ RabbitMQ with management and compatible version of the delayed message exchange 
     - [3.8.8-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.8.8-management/Dockerfile)
     - [3.8.5-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.8.5-management/Dockerfile)
     - [3.8.3-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.8.3-management/Dockerfile)
-- 3.7.x
+- 3.7.x:
     - [3.7.23-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.7.23-management/Dockerfile)
     - [3.7.17-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.7.17-management/Dockerfile)
     - [3.7.14-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.7.14-management/Dockerfile)
