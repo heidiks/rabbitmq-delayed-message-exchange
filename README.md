@@ -3,6 +3,7 @@ RabbitMQ with management and compatible version of the delayed message exchange 
 ## Versions
 - [latest](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/latest/Dockerfile)
 - 3.9.x:
+    - [3.9.7-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.9.7-management/Dockerfile)
     - [3.9.0-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.9.0-management/Dockerfile)
 - 3.8.x:
     - [3.8.9-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.8.9-management/Dockerfile)
@@ -48,5 +49,3 @@ The environment variables are the same as the [official image](https://hub.docke
 - Sample
     - RABBITMQ_DEFAULT_USER=admin
     - RABBITMQ_DEFAULT_PASS=password
-
-
