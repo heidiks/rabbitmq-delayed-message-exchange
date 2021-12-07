@@ -26,7 +26,9 @@ jobs:
       - name: Set up Docker Buildx
         id: buildx
         uses: docker/setup-buildx-action@v1
-
+        with:
+          platforms: linux/amd64,linux/arm64
+        
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
