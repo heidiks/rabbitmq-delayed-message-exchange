@@ -51,7 +51,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           file: ./versions/latest/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/rabbitmq-delayed-message-exchange:$RELEASE_VERSION
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/rabbitmq-delayed-message-exchange:${{ env.RELEASE_VERSION }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
