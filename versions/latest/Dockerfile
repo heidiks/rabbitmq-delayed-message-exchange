@@ -21,3 +21,5 @@ COPY --from=builder --chown=rabbitmq:rabbitmq \
 	$RABBITMQ_HOME/plugins/rabbitmq_delayed_message_exchange-${PLUGIN_VERSION}.ez
 
 RUN rabbitmq-plugins enable rabbitmq_delayed_message_exchange
+
+RUN rabbitmq-plugins enable rabbitmq_consistent_hash_exchange
