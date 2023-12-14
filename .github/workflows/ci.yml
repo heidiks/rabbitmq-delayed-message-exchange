@@ -1,8 +1,9 @@
-name: Docker CI to Hub
+name: Docker CI
 
 on:
   push:
-    - "**"
+    branches:
+      - "**"
 
 jobs:
   build:
