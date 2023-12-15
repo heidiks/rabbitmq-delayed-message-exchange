@@ -6,13 +6,9 @@ on:
       - '*.*.*'
 
 jobs:
-
   build:
-
     runs-on: ubuntu-22.04
-
     steps:
-    
       - name: Check Out Repo 
         uses: actions/checkout@v2
         
