@@ -10,7 +10,5 @@
 <!-- You can erase any parts of this template not applicable to your Pull Request. -->
 
 
-* cc: @heidiks
-
 
 
