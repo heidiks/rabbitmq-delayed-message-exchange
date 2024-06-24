@@ -2,7 +2,7 @@ name: Docker CI to Hub
 
 on:
   push:
-    branches: [ heidiks/gh-action-update-desc-repo ]
+    branches: [ master ]
 
 jobs:
   build:
