@@ -64,11 +64,11 @@ The environment variables are the same as the [official image](https://hub.docke
     - RABBITMQ_DEFAULT_PASS=password
 
 
-### Contributing
+## Contributing
 - For new versions:
   - You can create manually a new folder with the version name and the Dockerfile inside it.
     - If latest, you will need to update [latest/Dockerfile](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/latest/Dockerfile).
-  - Using bash script `create_new_version.sh`:
+  - Using bash script [create_new_version.sh](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/create_new_version.sh):
   ```bash
   # Interactive mode
   ./create_new_version.sh
