@@ -3,6 +3,7 @@ RabbitMQ with management and a compatible version of the delayed message exchang
 ## Versions
 - [latest](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/latest/Dockerfile)
 - 4.0.x
+  - [4.0.7-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/4.0.7-management/Dockerfile)
   - [4.0.2-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/4.0.2-management/Dockerfile)
 - 3.13.x
   - [3.13.3-management](https://github.com/heidiks/rabbitmq-delayed-message-exchange/blob/master/versions/3.13.3-management/Dockerfile)
