@@ -1,3 +1,9 @@
+> [!CAUTION]
+> - The original [repository](https://github.com/rabbitmq/rabbitmq-delayed-message-exchange) has been archived and has officially discontinued support for this plugin. 
+> - Development stopped at version 4.2, and it is not guaranteed to work with RabbitMQ 4.2+ or future releases.
+
+---
+
 RabbitMQ with management and a compatible version of the delayed message exchange plugin.
 
 ## Versions
